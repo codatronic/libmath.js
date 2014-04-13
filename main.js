@@ -10,3 +10,11 @@ function isTrueAdd(x, y, z) {
         return false;
     }
 }
+
+
+// thanks to MDN for this code
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+// (as of 04/13/2014)
+function randWhole(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
